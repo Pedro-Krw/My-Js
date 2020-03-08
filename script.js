@@ -1,4 +1,4 @@
-var nama= 'sa pace papua yang paling andalan di biak sana';
+var nama= 'sa napi';
  console.log('ko siapa ! '+nama);
 
 
