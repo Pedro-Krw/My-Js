@@ -48,3 +48,39 @@ var komputer = Math.floor(Math.random()*10);
    }
    alert (komputer);
  
+// Latihan Membuat Function membangkitkan bilangan random dari 1 sampai 5
+
+function random (){
+	var komputer = Math.floor(Math.random()*5);
+	 if (komputer < 1){
+	 	komputer = 'satu';
+	 }
+	 else if (komputer >1 && komputer <= 2){
+	 	komputer = 'dua';
+	 }
+	 else if (komputer >2 && komputer <=3){
+	 	komputer= 'tiga'
+	 }
+	 else if (komputer >3 && komputer <=4){
+	 	komputer= 'empat'
+	 }
+	 else {
+	 	komputer = 'lima';
+	 }
+	return komputer;
+}
+//membuat function mencetak bilangan ganjil dan genap
+function mencetak(){
+var napi;
+
+if (napi % 2 ===0){
+	alert('Ini adalah bilangan Genap');
+}
+else if (napi %2 === 1){
+	alert('ini adalah bilangan Ganjil');
+}
+else{
+	
+}
+return napi;
+}
