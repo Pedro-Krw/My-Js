@@ -23,3 +23,28 @@ var l = parseInt( prompt ('Silahkan Masukan Harga laptop :'));
 var h = parseInt(prompt ('Silahkan Masukan Harga Hp :'));
 var hasil = uang(l,h);
 alert (hasil);
+
+// penmbahan
+
+function kubus (a,b){
+	var kubusA = a * a * a;
+	var kubusB = b * b * b;
+	var hasil = kubusA + kubusB;
+	return hasil;
+}
+   
+var komputer = Math.floor(Math.random()*10);
+   if ( komputer < 5){
+   komputer = komputer + kubus(2,3);
+   }
+   else if ( komputer >5 && komputer <= 8){
+   	komputer = komputer * kubus (2,3);
+   }
+   else if (komputer >8 && komputer <=10){
+   	komputer = 'Ini sisa yaitu 9';
+   }
+   else {
+   	komputer = 'ini sisa yaitu 10';
+   }
+   alert (komputer);
+ 
