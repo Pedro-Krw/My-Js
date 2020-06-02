@@ -84,3 +84,5 @@ else{
 }
 return napi;
 }
+// Bagian Array
+var Arr = 
